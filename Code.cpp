@@ -30,6 +30,7 @@ int main() {
 		cout << "4- Informar tres numeros e ordenar de forma crescente" << endl;
 		cout << "5- Informar um vetor e calcular a media dos elementos" << endl;
 		cout << "6- Chamar uma funcao para ordenar um vetor utilizando o bubble sort" << endl;
+		cout << "7- Desafio Surpresa!" << endl;
 		cout << "Opcao: ";
 		cin >> opcao;
 		
@@ -145,7 +146,11 @@ int main() {
 			cout << endl;
 		}
 		
-	} while(opcao > 0 && opcao < 10);
+		if (opcao == 7) {
+			cout << "Calma ai curioso!" << endl;
+		}
+		
+	} while(opcao >=1 && opcao <=7);
 	
 	return (0);
 }
