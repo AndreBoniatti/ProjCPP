@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//teste
+
 void OrdenaPorBolha (int Vet[], int pos) {
 	int aux, i, j;
 	
